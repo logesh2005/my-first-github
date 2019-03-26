@@ -1,0 +1,75 @@
+:root{
+    font-size: 16px;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.container{
+	display: block;
+	margin:2vw;
+
+}
+.banner .card{
+	background:#2c2c2c;
+	border:1px solid #2c2c2c;
+	border-radius: 5px;
+	box-shadow:5px 8px 20px 2px #35eea4;
+	display: block;
+}
+.banner .card .heading{
+	position: relative;
+	color:#35eea4;
+	font-family: "playfair display",serif;
+	font-size: 4rem;
+	font-weight:700;
+	margin-bottom: 1vh;
+	padding:3vw;
+}
+.banner .card .sub-heading{
+	color:#35eea4;
+	font-family:"playfair display",serif;
+	font-size: 1rem;
+	margin:2vw;
+	padding: 1vw;
+}
+.banner .card .sub-heading button{
+	background: #709F89;
+	border:2px;
+	border-radius:5px;
+	color:#35eea4;
+	font-family: "Istok Web" ,sans-serif;
+	font-size: 2rem;
+	letter-spacing: 4px;
+	margin-top: 20px;
+	margin:0;
+	padding: 1vw;
+    
+
+}
+.banner .card .sub-heading button:hover {
+	cursor: pointer;
+	box-shadow: 0px 3px 20px 0px #3DC687  ;
+}
+
+.row{
+	display: block;
+}
+.image{
+	position: relative;
+	float: right;
+}
+.paragraph{
+	font-size:2rem;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-style: oblique;
+	color:black;
+	border-color: grey;
+}
+.icon-group{
+	margin-top: 20px;
+}
+.icon-group{
+	margin-right: 10px;
+	width:25px;
+}
